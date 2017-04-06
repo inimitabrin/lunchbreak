@@ -42,6 +42,6 @@ infowindow = new google.maps.InfoWindow({
 });
 
 
-map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
+var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
 
 });
