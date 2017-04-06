@@ -1,0 +1,74 @@
+html, body {
+  overflow-x: hidden;
+}
+
+/* 
+  =====================================================
+  Custom Styles
+  =====================================================
+*/
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+
+/* 
+  =====================================================
+  Header
+  =====================================================
+*/
+
+header {
+  background-color: #FF9100;
+  height: 73px;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.50);
+}
+
+img.hamburger {
+  float: left;
+  margin: 20px 0 20px 15px;
+  height: 27px;
+}
+
+div.searchcontainer {
+  display: flex;              /* establish flex container */
+  justify-content: center;    /* center items vertically, in this case */
+  align-items: center; 
+}
+
+input.searchbar {
+  width: 260px;
+  height: 27px;
+  text-align: center;
+  background-color: #FFFFFF;
+  margin-top: 20px;
+  border-radius: 4px;
+  font-size: 15px;
+  background-image: url("../images/search.png");
+  background-position: 25% 50%;
+  background-repeat: no-repeat;
+  font-weight: 100;
+  border: 0;
+}
+
+input.searchbar:focus {
+  background-image: none;
+}
+
+img.filter {
+  float: right;
+  margin: -25px 10px 20px;
+  height: 21px;
+}
+
+/* 
+  =====================================================
+  Map
+  =====================================================
+*/
+
+img.currentloc {
+  position: absolute;
+  bottom: 5px;
+  right: 5px;
+}
