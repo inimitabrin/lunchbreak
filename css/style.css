@@ -1,5 +1,7 @@
 html, body {
-  overflow-x: hidden;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* 
@@ -69,11 +71,12 @@ img.filter {
 
 img.currentloc {
   position: absolute;
-  bottom: 5px;
+  z-index: 999;
+  bottom: -10px;
   right: 5px;
 }
 
-#map-canvas {
+#map {
   width: 100%;
-  height: 100%;
+  height: 90%;
 }
